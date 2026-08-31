@@ -20,7 +20,7 @@ Execute the C Program for the desired output.
 # PROGRAM:
 
 ## 1.To Write a C program that illustrates files copying 
-
+```python
 #include <unistd.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -71,12 +71,12 @@ int main(int argc, char *argv[]) {
     return EXIT_SUCCESS;
 }
 
-
+```
 
 
 
 ## 2.To Write a C program that illustrates files locking
-
+```python
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -143,11 +143,11 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-
+```
 ## OUTPUT
-
+### filecopy:
 ![output](output1.png)
-
+### filelock:
 ![output](output2.png)
 
 # RESULT:
